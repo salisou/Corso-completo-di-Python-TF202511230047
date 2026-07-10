@@ -1,16 +1,20 @@
 """
-    
+
     Servono a prendere decizioni al programma
-    if(SE) else(altrimenti) 
+    if(SE) else(altrimenti)
     if condizione:
         codie
     else:
         codice
 
-    
-    if(SE) elif(altrimenti sé) else(altrimenti) 
+
+    if(SE) elif(altrimenti sé) else(altrimenti)
     if condizione:
         codie
+    elif condizione:
+        codice
+    elif condizione:
+        codice
     elif condizione:
         codice
     else:
@@ -20,7 +24,7 @@
 """
     Gli operatori di confronso sono
     <; >; ==; <=; >=; !=;
-    
+
     Gli operatori logici
     AND(&&) OR(||) NOT(!)
 """
@@ -35,7 +39,7 @@ password_utente = input('🔐 Inserisci la password: ')
 if email == utente and password == password_utente:
     print('Benvenuto nel sistema')
 elif email != utente:
-    print('📧 Verifica la mail') 
+    print('📧 Verifica la mail')
 elif password_utente != password:
     print('⚠️ Password errato.\n Riprova')
 else:

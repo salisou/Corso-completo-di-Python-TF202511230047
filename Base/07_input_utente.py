@@ -1,4 +1,4 @@
-# input() restituisce sempre il testo 
+# input() restituisce sempre il testo
 nome = input('Come ti chiami? ')
 print('Ciao piacere di conscerti', nome)
 
@@ -13,8 +13,10 @@ print(f'Ma davvero che sei {lavoro}, oooh! Che bello il tuo lavorooo!')
 # Massa
 provenienza = input('Dove sei nato? ' )
 print('Vieni da' ,provenienza, 'fantastico!')
+
+
 # Luigi
-eta = str(input('Quanti anni hai? '))
+eta = int(input('Quanti anni hai? '))
 print('Ciao ti chiami', nome, cognome, 'hai', eta, 'anni, sei di', provenienza, 'e lavori come'  , lavoro )
 
 

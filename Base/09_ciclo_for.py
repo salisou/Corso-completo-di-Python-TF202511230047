@@ -1,15 +1,15 @@
 """
     Il ciclo for in python
-    
-    il ciclo "for" è una struttura di iterazione 
+
+    il ciclo "for" è una struttura di iterazione
     che permette di ripetere un blocco di codice
-    un numero definito di volte oppure di scorrere 
-    gli elementi di una sequenza (Lista, stringa, tuple, dizionario, inseme, ecc...) 
-    
-    
+    un numero definito di volte oppure di scorrere
+    gli elementi di una sequenza (Lista, stringa, tuple, dizionario, inseme, ecc...)
+
+
     Perché usare il ciclo "for"?
-    
-    immaginate di voler stampare 10 volte Ciao😅 
+
+    immaginate di voler stampare 10 volte Ciao😅
     esempio senza for:
         Ciaooooo 😅
         Ciaooooo 😅
@@ -22,20 +22,20 @@
         Ciaooooo 😅
         Ciaooooo 😅
     è lungo, ripetitivo e dificicle da modificare🤨
-    
+
     Con il ciclo for basta scrivere:
-    
+
     for i in range(numero desiderato):
-        stampa Ciaooooo 😅       
+        stampa Ciaooooo 😅
 """
 # (variable) i: int
 for i in range(10):
-    print( 'sono Massa N°', i, '😅')
-    
+    print( 'sono Roxana N°', i, '😅')
+
 
 """
     for     -> parola chiave che avvia il ciclo
-    i       -> variabile del ciclo
+    i = 0   -> variabile del ciclo
     in      -> significa "dentro"
     range() -> genera un sequenza di numeri passato nel parametro
     :       -> indica l'inizio del blocco
@@ -50,7 +50,7 @@ for i in range(10):
 # Esempio 2: Range(inizio, fine, passo)
 for i in range(0, 11, 2):
     print('numero =>', i)
-    
+
 
 
 
@@ -69,4 +69,3 @@ numero = int(input('Inserisci un numer maggiore di 0: '))
 for i in range(1,13):
        print(numero, 'x', i, '=', numero * i )
 
-   

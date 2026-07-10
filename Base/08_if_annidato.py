@@ -1,26 +1,28 @@
 """
-    If Annidato in python 
-    
+    If Annidato in python
+
     Sintassi base:
-    if condizione 
-        codice eseguito se la condizione è vera 
+    if condizione:
+        codice eseguito se la condizione è vera
 
         if altra_condizione:
             codice eseguito se anche seconda la condizione è vera
         else:
-            codice eseguito se la seconda condizione è falsa 
+            codice eseguito se la seconda condizione è falsa
     else:
-        codice eseguito se la prima condizione è falsa      
+        codice eseguito se la prima condizione è falsa
 """
 
 # Esempio 1 Maggiore età
 eta = int(input('Inserisci la tua età: '))
-patente = True
+patente = False
+rsiposta = 'si'
 
 if eta >= 18:
     print('Sei aggiorenne.')
-    
-    if patente:
+
+    domanda = input("Hai la patante b? ")
+    if rsiposta == domanda:
         print('Poi guidare...🚗')
     else:
         print('Non poi gruidare perché non hai la patente...')
@@ -32,26 +34,25 @@ else:
 email = 'antonella.r@gmail.com'
 password = 'Antonella@2026'
 
-# email_utente = input("📧 Inserisci la mail: ")
-# password_utente = input('🔐 Inserisci la password: ')
+email_utente = input("📧 Inserisci la mail: ")
+password_utente = input('🔐 Inserisci la password: ')
 
-
-# if email == email_utente:
-#     if password == password_utente:
-#         print('Accesso consentito nel sistema')
-#     else:
-#         print('password errata')
-# else:
-#     print('Utente inesistente nel sistema')
+if email == email_utente:
+    if password == password_utente:
+        print('Accesso consentito nel sistema')
+    else:
+        print('password errata')
+else:
+    print('Utente inesistente nel sistema')
 
 
 voto: int = int(input('inserisci il voto: '))
 
-if voto >= 18: 
+if voto >= 18:
     print('hai superato l\'esame ')
     if voto >= 30:
         print('Complimenti! Hai superato l\'esame con il massimo dei voti')
-    else : 
+    else :
         print('Promosso! con un voto', voto)
 else :
     print('Non ammesso! perché hai ottenuto un punteggio di', voto)
