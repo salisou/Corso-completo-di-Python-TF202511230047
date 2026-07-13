@@ -67,6 +67,7 @@ utenti = {
 for key, value in utenti.items():
     print(key, value)
 
+print('=' * 50, '\n')
 
 studenti = {
     'Stefano': [5, 10, 28, 30, 26, 7],
@@ -80,15 +81,15 @@ for nome, voti in studenti.items():
     print('Nome:', nome, 'Voto media:', media)
 
 
-# Ciclo while
-numero = 10
+# # Ciclo while
+# numero = 10
 
-while True:
-    if numero >= 1:
-        print('Ciaoooooo 😅')
-        break
-    else:
-        print('😭😭😭😭')
+# while True:
+#     if numero >= 1:
+#         print('Ciaoooooo 😅')
+#         break
+#     else:
+#         print('😭😭😭😭')
 
 
 
